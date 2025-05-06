@@ -27,7 +27,7 @@ module.exports = {
           },
           logging: false,
         }),
-  PREFIX: (process.env.PREFIX || '^[.,!]').trim(),
+  PREFIX: (process.env.PREFIX |⚡| '^[.,!]').trim(),
   SUDO: process.env.SUDO || '',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME,
   HEROKU_API_KEY: process.env.HEROKU_API_KEY,
@@ -63,7 +63,7 @@ module.exports = {
   PERSONAL_MESSAGE: (process.env.PERSONAL_MESSAGE || 'null').trim(),
   DISABLE_START_MESSAGE: process.env.DISABLE_START_MESSAGE || 'false',
   ANTI_BOT: (process.env.ANTI_BOT || 'off').trim(),
-  ANTI_BOT_MESSAGE: process.env.ANTI_BOT_MESSAGE || '&mention removed',
+  ANTI_BOT_MESSAGE: process.env.ANTI_BOT_MESSAGE || '&Your Bot has no Cursed Energy',
   WARN_MESSAGE:
     process.env.WARN_MESSAGE ||
     '⚠️WARNING⚠️\n*User :* &mention\n*Warn :* &warn\n*Remaining :* &remaining',
